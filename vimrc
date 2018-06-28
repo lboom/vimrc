@@ -6,7 +6,6 @@ call vundle#begin()
 " vundle manage plugins
 Plugin 'gmarik/Vundle.vim'
 " other managed plugins go here
-Plugin 'scrooloose/nerdtree'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'cespare/vim-toml'
 
@@ -40,8 +39,6 @@ map \e[3~ x
 let c_comment_strings=1
 
 colorscheme distinguished
-"colorscheme oceandeep
-"colorscheme xoria256
 
 highlight LineNr ctermfg=lightblue ctermbg=black
 command Q q
@@ -57,10 +54,6 @@ imap <left> <nop>
 imap <right> <nop>
 
 " handy commands below
-" shortcut  for nerdtree
-nmap <Leader>n :NERDTreeToggle<CR>
-" shortcut for binary view, make sure to :set modifiable first
-nmap <Leader>b :%!xxd<CR>
 " map some buffer commands 
 nmap <Leader>bn :bnext<CR>
 nmap <Leader>bp :bprevious<CR>
