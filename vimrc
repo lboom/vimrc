@@ -1,23 +1,10 @@
 " vimrc
-" vundle stuff here
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" vundle manage plugins
-Plugin 'gmarik/Vundle.vim'
-" other managed plugins go here
-Plugin 'jelera/vim-javascript-syntax'
-Plugin 'cespare/vim-toml'
-
-call vundle#end()
-filetype plugin indent on
-" end vundle stuff
-
 set t_Co=256
 set nocompatible
 set bs=2
 set autoindent
 set tabstop=2
+set expandtab
 set shiftwidth=2
 set number
 set nowrapscan
